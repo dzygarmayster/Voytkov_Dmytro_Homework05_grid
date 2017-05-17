@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    display: grid;
+    width: 499px;
+    height: 541px;
+    grid-template-columns: 48px 60px 60px 128px 76px 76px;
+    grid-template-rows: 46px 128px 128px 60px 58px 30px 30px;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+
+.wrapper {
+    background-color: #000;
+}
+
+/*===================== BACKGROUND CLASSES =======================*/
+
+.bg-white {
+    background-color: #fff;
+}
+
+.bg-yellow {
+    background-color: #ffe85b;
+}
+
+.bg-red {
+    background-color: #fc5231;
+}
+
+.bg-black {
+    background-color: #000;
+}
+
+.bg-blue {
+    background-color: #0d4b89;
+}
+
+/*===================== ITEMS MARKUP =======================*/
+
+.item01 {
+    grid-column: 1 / span 2;
+}
+
+.item02 {
+    grid-column: 3 / span 2;
+}
+
+.item03 {
+    grid-column: 5 / span 2;
+}
+
+.item05 {
+    grid-area: 2 / 2 / 4 / 5;
+}
+
+.item06 {
+    grid-column: 5 / span 2;
+}
+
+.item07 {
+    grid-row: 3 / span 2;
+}
+
+.item10 {
+    grid-area: 4 / 2 / 6 / 4;
+}
+
+.item12 {
+    grid-column: 5 / span 2;
+}
+
+.item13 {
+    grid-row: 5 / span 3;
+}
+
+.item15 {
+    grid-area: 5 / 5 / span 2 / span 2;
+}
+
+.item16 {
+    grid-area: 6 / 2 / span 2 / span 2;
+}
+
+.item18 {
+    grid-column: 4 / span 3;
+}
