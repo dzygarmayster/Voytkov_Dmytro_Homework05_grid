@@ -7,14 +7,12 @@
     display: grid;
     width: 499px;
     height: 541px;
+    background-color: #000;
+    background-image: url('../img/noisy-texture.png');
     grid-template-columns: 48px 60px 60px 128px 76px 76px;
     grid-template-rows: 46px 128px 128px 60px 58px 30px 30px;
     grid-column-gap: 10px;
     grid-row-gap: 10px;
-}
-
-.wrapper {
-    background-color: #000;
 }
 
 /*===================== BACKGROUND CLASSES =======================*/
@@ -25,18 +23,22 @@
 
 .bg-yellow {
     background-color: #ffe85b;
+    background-image: url('../img/noisy-texture-low.png');
 }
 
 .bg-red {
     background-color: #fc5231;
+    background-image: url('../img/noisy-texture-low.png');
 }
 
 .bg-black {
     background-color: #000;
+    background-image: url('../img/noisy-texture-low.png');
 }
 
 .bg-blue {
     background-color: #0d4b89;
+    background-image: url('../img/noisy-texture-low.png');
 }
 
 /*===================== ITEMS MARKUP =======================*/
